@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header */
+.inbox-header {
+    width: 100%;
+    height: 65px;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Left */
+.inbox-header .left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.inbox-header .logo {
+    width: 40px;
+}
+
+.inbox-header .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Right */
+.inbox-header .right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Buttons */
+.inbox-header .btn {
+    text-decoration: none;
+    padding: 8px 14px;
+    font-size: 14px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.inbox-header .btn:hover {
+    background: #fff;
+    color: #4facfe;
+}
+
+/* Highlight create message */
+.inbox-header .create {
+    background: #fff;
+    color: #4facfe;
+    font-weight: bold;
+}
+
+.inbox-header .create:hover {
+    background: #e6f4ff;
+}
+/* Send Message Card */
+.send-container {
+    width: 400px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Heading */
+.send-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Inputs */
+.send-container input[type="text"],
+.send-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    resize: none;
+}
+
+.send-container textarea {
+    height: 120px;
+}
+
+.send-container input:focus,
+.send-container textarea:focus {
+    border-color: #4facfe;
+}
+
+/* Submit button */
+.send-container input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: #4facfe;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.send-container input[type="submit"]:hover {
+    background: #00c6fb;
+    transform: translateY(-2px);
+}

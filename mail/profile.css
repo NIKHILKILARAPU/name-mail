@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header */
+.inbox-header {
+    width: 100%;
+    height: 65px;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Left */
+.inbox-header .left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.inbox-header .logo {
+    width: 40px;
+}
+
+.inbox-header .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Right */
+.inbox-header .right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Buttons */
+.inbox-header .btn {
+    text-decoration: none;
+    padding: 8px 14px;
+    font-size: 14px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.inbox-header .btn:hover {
+    background: #fff;
+    color: #4facfe;
+}
+
+/* Highlight create message */
+.inbox-header .create {
+    background: #fff;
+    color: #4facfe;
+    font-weight: bold;
+}
+
+.inbox-header .create:hover {
+    background: #e6f4ff;
+}
+.welcome{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+    color: #333;
+}
+/* Profile page container */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+/* Card */
+.profile-card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 450px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+.profile-card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #111827;
+}
+
+.section {
+    margin-bottom: 25px;
+}
+
+.section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #374151;
+}
+
+/* Inputs */
+.profile-card input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Buttons */
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Button colors */
+.primary {
+    background: #2563eb;
+    color: white;
+}
+
+.success {
+    background: #16a34a;
+    color: white;
+}
+
+.danger {
+    background: #dc2626;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Danger zone */
+.danger-zone {
+    border-top: 1px solid #e5e7eb;
+    padding-top: 15px;
+}

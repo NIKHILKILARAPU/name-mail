@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header */
+.inbox-header {
+    width: 100%;
+    height: 65px;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Left */
+.inbox-header .left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.inbox-header .logo {
+    width: 40px;
+}
+
+.inbox-header .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Right */
+.inbox-header .right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Buttons */
+.inbox-header .btn {
+    text-decoration: none;
+    padding: 8px 14px;
+    font-size: 14px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.inbox-header .btn:hover {
+    background: #fff;
+    color: #4facfe;
+}
+
+/* Highlight create message */
+.inbox-header .create {
+    background: #fff;
+    color: #4facfe;
+    font-weight: bold;
+}
+
+.inbox-header .create:hover {
+    background: #e6f4ff;
+}
+.welcome{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+    color: #333;
+}
+/* Fix body centering issue */
+body {
+    margin: 0;
+    background: #f4f6f9;
+    text-align: left; /* VERY IMPORTANT */
+}
+
+/* Center inbox content */
+.inbox-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+/* Inbox table */
+.inbox-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* Header */
+.inbox-table th {
+    background: #2563eb;
+    color: white;
+    padding: 14px;
+    text-align: left;
+    font-size: 15px;
+}
+
+/* Cells */
+.inbox-table td {
+    padding: 14px;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 14px;
+    color: #111;
+}
+
+/* Hover like Gmail */
+.inbox-table tr:hover {
+    background: #f1f5f9;
+}
+
+/* Sender column */
+.inbox-table td:first-child {
+    font-weight: bold;
+    width: 30%;
+}
+
+/* No messages text */
+.no-msg {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-top: 40px;
+}
+

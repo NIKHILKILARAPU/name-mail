@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="createmsg.css">
+    </head>
+    <body>
+        
+        <header class="inbox-header">
+            <div class="left">
+                <img src="logo.png" alt="Logo" class="logo">
+                <span class="title">Name Mail</span>
+            </div>
+
+            <div class="right">
+                <a href="inbox.php" class="btn inbox">Inbox</a>
+                <a href="createmsg.html" class="btn create">Create Message</a>
+                <a href="profile.php" class="btn profile">My Profile</a>
+                <a href="logout.php" class="btn logout">Logout</a>
+            </div>
+        </header>
+        <div class="send-container">
+    <h2>Send Message</h2>
+    <form action="createmsg.php" method="post">
+        <input type="text" name="recipient" placeholder="Recipient" required>
+        <textarea name="message" placeholder="Message" required></textarea>
+        <input type="submit" value="Send Message">
+    </form>
+</div>
+
+    </body>
+</html>
